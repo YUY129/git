@@ -20,8 +20,7 @@ int main(void)
 	
 //	GPIO_ResetBits(GPIOA,GPIO_Pin_0);   //低-亮
 //	GPIO_SetBits(GPIOA,GPIO_Pin_0);    //高-灭
-//	GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_RESET);
-//	GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_SET);
+
 	while(1)
 	{
 //		GPIO_ResetBits(GPIOA,GPIO_Pin_0);
