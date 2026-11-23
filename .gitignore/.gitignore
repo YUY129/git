@@ -1,0 +1,36 @@
+# ===== Keil MDK 构建产物 =====
+Objects/
+Listings/
+*.hex
+*.bin
+*.axf
+*.o
+*.d
+*.crf
+*.lnp
+*.lst
+*.map
+*.htm
+*.dep
+
+# ===== Keil IDE 用户/临时文件 =====
+*.uvguix.*
+*.uvoptx
+*.bak
+*.bak.*
+JLinkLog.txt
+JLink.log
+EventRecorderStub.scvd
+
+# ===== Keil 调试配置（含本地调试器信息）=====
+DebugConfig/
+
+# ===== 编译器中间文件 =====
+*.i
+*.s
+*.l
+
+# ===== 操作系统临时文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
